@@ -1,0 +1,13 @@
+{
+  "buildpacks": [
+    {
+      "url": "elixir-buildpack/heroku-elixir"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "hobby"
+    }
+  }
+}
